@@ -10,6 +10,9 @@ mkdir gitfolder	创建gitfolder文件夹
 cd gitfloder	切换到到当前目录下
 git init   	初始化仓库
 git remote add origin git@XXXX.com 本地仓库关联到远程仓库
+vim file 新建或者打开某个文件
+rm file 删除某个文件
+cat file 查看某个文件的内容
 ```
 **注:** 以上都是直接建立空的git仓库然后关联.也可直接使用`git clone git@XXXX.com`的方式直接克隆到本地。克隆之前本地需要设置[SSH](#ssh-配置).
 
